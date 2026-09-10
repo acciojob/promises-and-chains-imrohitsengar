@@ -16,7 +16,7 @@ form.addEventListener('submit',(e)=>{
 			},4000)
 		}else{
 			setTimeout(()=>{
-				rej("Oh sorry . You aren't old enough.")
+				rej(`Oh sorry ${name.value}. You aren't old enough.`)
 			},4000)
 		}
 	})
