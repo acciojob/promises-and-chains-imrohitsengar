@@ -20,6 +20,6 @@ form.addEventListener('submit',(e)=>{
 			},4000)
 		}
 	})
-	promise.then((res)=> alert(`${res}`))
-		.catch((rej)=> alert(`${rej}`))
+	promise.then((res)=> alert(res))
+		.catch((rej)=> alert(rej))
 })
