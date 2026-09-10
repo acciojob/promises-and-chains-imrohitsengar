@@ -12,7 +12,7 @@ form.addEventListener('submit',(e)=>{
 	const promise= new Promise((res,rej)=>{
 		if(age.value>18){
 			setTimeout(()=>{
-				res("Welcome, . You can vote.")
+				res(`Welcome, ${name.value}. You can vote.`)
 			},4000)
 		}else{
 			setTimeout(()=>{
